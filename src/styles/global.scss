@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: Arial, Helvetica, sans-serif;
+  background: #333;
+  
+  h1 {
+    padding: 16px;
+    color: #ffaa;
+    font-size: 80px;
+  }
+  
+  #principal {
+    text-align: center;
+  }
+}
