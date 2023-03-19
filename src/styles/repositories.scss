@@ -1,0 +1,32 @@
+section.repository-list {
+  margin: 40px;
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      /* Todo li seguido de um li. O primeiro li não terá o margin-top */
+      & + li {
+        margin-top: 10px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #444;
+        margin-top: 8px;
+      }
+
+      a {
+        /* Mantem o comportamento de um elemento inline, porém permite fazer as coisas de block, como margin */
+        display: inline-block;
+        margin-top: 16px;
+        text-decoration: none;
+        color: #8257e6;
+      }
+    }
+  }
+}
